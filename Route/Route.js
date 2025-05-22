@@ -18,3 +18,4 @@ router.put('/profile', authMiddleware, UserUpdate);
 router.delete('/profile', authMiddleware, UserDelete);
 
 export default router;
+
